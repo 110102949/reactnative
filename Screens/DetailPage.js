@@ -20,15 +20,6 @@ const DetailPage = (props) => {
 
 
  let data = props.route.params.Detaildata;
-
-
-
-
-
-
-
-
-  
   const weatherdata = async (data, index) => {
   
   if(data.length>0)
